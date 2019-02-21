@@ -14,6 +14,7 @@
 - code organisation
 - continous integration :
   - travis / jenkins
+  - one click auto release
 - test :
   - kill mocha / use jest
 - code coverage
@@ -55,6 +56,18 @@ TYPES :
 - front :
   - component testing (jasmine ?)
 
-# ideas :
+## ideas :
 
 https://developer.github.com/apps/building-github-apps/creating-a-github-app/
+
+## other modules solutions
+
+https://www.npmjs.com/package/module-alias
+https://github.com/ilearnio/module-alias
+
+https://www.npmjs.com/package/@ef-carbon/tspm
+https://www.npmjs.com/package/tspath
+https://github.com/joonhocho/tscpaths
+https://www.npmjs.com/package/tsconfig-paths
+
+https://github.com/Microsoft/TypeScript/issues/10866#issuecomment-453016049

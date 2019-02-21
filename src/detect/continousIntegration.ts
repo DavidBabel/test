@@ -1,5 +1,4 @@
-// import score from 'detect/continousIntegration';
+import { doesFileExists } from 'src/helpers/getFile';
 
-// export default hasContinousIntegration() {
-
-// }
+export default () =>
+  doesFileExists('./.travis.yml') || doesFileExists('./.jenkins');
